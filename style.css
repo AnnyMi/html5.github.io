@@ -1,0 +1,332 @@
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+/*        box-shadow: 0 2px 5px #ccc;*/
+}
+
+header {
+    height: 800px;
+    background-color: #ffffff;
+    background-image: url(img/pink-watercolor-circle-7.png);
+    background-position: 400px -100px;
+    background-repeat: no-repeat;
+}
+
+
+
+.logo {
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.logo h5 {
+    color: #ff6969;
+    font-size: 12px;
+}
+
+.burger img {
+    width: 50px;
+    height: 50px;
+}
+
+.burger {
+    display: block;
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.burger-none img {
+    width: 50px;
+    height: 50px;
+}
+
+.burger-none {
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+
+.burger:active .burger-none {
+    display: block;
+}
+
+.big-cat {
+    position: relative;
+}
+
+.big-cat img {
+    width: 850px;
+    clear: both;
+    margin-top: 150px;
+    float: right;
+    padding-right: 100px;
+}
+
+.big-cat h4 {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    top: 700px;
+    left: 200px;
+}
+
+.big-cat p {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    top: 705px;
+    left: 300px;
+    color: #00a7ff;
+}
+
+.bye {
+    clear: both;
+    float: left;
+    display: block;
+    width: 700px;
+    margin-top: -500px;
+    padding-left: 50px;
+}
+
+.bye h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.bye a {
+    margin-top: 50px;
+}
+
+.buttom {
+    display: block;
+    width: 200px;
+    height: 40px;
+    background-color: #00a7ff;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+}
+
+.buttom:hover {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.buttom:active {
+    color: aliceblue;
+    text-decoration: none;
+    box-shadow: none;
+}
+.buttom:visited {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+h2 {
+    clear: both;
+    padding-top: 100px;
+    padding-left: 450px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.card {
+    float: left;
+    display: flex;
+    margin-top: 100px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    text-align: center;
+}
+
+.cats {
+   margin: 0;
+    margin-bottom: 350px;
+}
+.cats-photo {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+}
+.cats-photo a {
+    margin-left: 20px;
+}
+
+.name h4 {
+    transform: rotate(90deg);
+   display: block;
+    width: 50px;
+    margin-top: -300px;
+}
+.name p {
+    transform: rotate(90deg);
+   display: block;
+    margin-left: 0px;
+    margin-top: 45px;
+    width: 50px;
+    color: #00a7ff;
+}
+
+.about {
+    clear: both;
+    height: 700px;
+    margin-bottom: 50px;
+    background-image: url(img/about-cat.png);
+    background-repeat: no-repeat;
+    background-position: 400px -200px;
+}
+.about h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 200px;
+    display: block;
+    width: 900px;
+}
+.about p {
+    float: left;
+    display: block;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 500px;
+    color: dimgray;
+}
+.clr {
+    clear: both;
+}
+.document {
+    height: 200px;
+    background-color: #ccc;
+}
+.document h4 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 70px;
+    padding-left: 200px;
+    float: left;
+}
+.document .buttom-doc {
+    display: block;
+    float: right;
+    
+    width: 200px;
+    height: 40px;
+    background-color: #00a7ff;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 80px;
+    margin-right: 200px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+}
+
+.buttom-doc:hover {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.buttom-doc:active {
+    color: aliceblue;
+    text-decoration: none;
+    box-shadow: none;
+}
+.buttom-doc:visited {
+    color: aliceblue;
+    text-decoration: none;
+}
+.photo img {
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    float: left;
+    margin: 5px;
+}
+.photo ul {
+    margin-top: 50px;
+    padding-bottom: 100px;
+	list-style-type: none;
+}
+.video {
+    margin-left: 200px;
+}
+
+footer h2 {
+    padding-left: 450px;
+    padding-top: 50px;
+    
+}
+footer p {
+    color: #ff6969;
+    font-size: 12px;
+    padding-left: 480px;
+    margin-bottom: 50px;
+}
+footer {
+    height: 650px;
+    background-image: url(img/cont.png);
+    background-repeat: no-repeat;
+    background-position: 0px 170px;
+}
+.contacts {
+    display: block;
+    background-color: white;
+    width: 350px;
+    height: 350px; 
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.contacts>input {
+    margin: 15px;
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.contacts h4 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.contacts .buttom {
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
